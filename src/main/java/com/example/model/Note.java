@@ -33,6 +33,7 @@ public class Note {
 
     private String header;
 
+    @Column(columnDefinition = "varchar(1001)")
     private String description;
 
     @CreationTimestamp
