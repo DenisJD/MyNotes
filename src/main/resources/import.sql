@@ -1,0 +1,1 @@
+INSERT INTO notes (header, description, created_at) VALUES ('Тестовая заметка', 'Это тестовая заметка', '2023-03-03 16:00:00.000');

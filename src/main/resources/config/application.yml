@@ -1,0 +1,27 @@
+base-url: /api
+
+server:
+  port: 5000
+
+spring:
+  application:
+    name: accounts
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+
+  liquibase:
+    enabled: true
+    changelog: classpath:db/changelog/changelog-master.xml
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+logging:
+  level:
+    root: INFO
+    web: DEBUG
