@@ -5,6 +5,9 @@
 
 #### Demo deploy on [Render](https://mynotes-1m1e.onrender.com/api)
 
+#### Description:
+#### MyNotes is a website that allows you to manage your notes. You can create, edit and delete unnecessary notes.
+
 ### 1 - Welcome page
 ![Image alt](https://github.com/DenisJD/images/raw/main/mynotes/1.png)
 ### 2 - Notes page
